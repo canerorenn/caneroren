@@ -1,0 +1,20 @@
+//
+
+$color-white: #ffffff;
+$color-black: #000000;
+
+// Breakpoints
+$breakpoints: (
+  phone: 319px,
+  large-phone: 375px,
+  phone-x: 420px,
+  xlarge-phone: 480px,
+  xxlarge-phone: 514px,
+  tablet-down: 767px,
+  tablet: 768px,
+  tablet-x: 992px,
+  large-tablet: 1024px,
+  container: 1160px,
+  desktop: 1200px,
+  large-desktop: 1400px,
+);
