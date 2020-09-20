@@ -23,8 +23,26 @@ body,
   height: 100%;
 }
 
+body {
+  background-color: var(--bg-color);
+}
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --red-color: #f34040;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #000000;
+    --text-color: #ffffff;
+  }
+}
+
 .layout {
   height: 100%;
+  padding: 50px 0;
 
   .container {
     display: flex;
@@ -34,7 +52,6 @@ body,
 
 .wrapper {
   width: 100%;
-  height: 200px;
 }
 
 .container {
