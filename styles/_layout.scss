@@ -51,6 +51,12 @@ body {
     display: flex;
     align-items: flex-start;
   }
+
+  @include media("<tablet") {
+    .container {
+      flex-direction: column;
+    }
+  }
 }
 
 .wrapper {
@@ -69,6 +75,7 @@ body {
 .entry {
   padding-top: 50px;
   position: relative;
+  margin-bottom: 50px;
 
   h1 {
     margin-bottom: 30px;
