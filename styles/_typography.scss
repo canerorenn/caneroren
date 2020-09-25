@@ -51,5 +51,14 @@ button {
   font-size: $default-font-size;
   font-weight: $default-font-weight;
   line-height: $default-line-height;
-  color: var(--text-color);
+  color: $color-black;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 52px;
+  strong {
+    display: block;
+  }
 }
