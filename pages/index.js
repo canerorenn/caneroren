@@ -9,7 +9,7 @@ export default function HomePage() {
       <section className="entry">
         <h1><strong>Hello,</strong> I'm developing frontend jobs as a freelancer.</h1>
         <p>You can currently <span>work</span> with me.</p>
-        <Button content="Get in touch" tag="link" href="/get-in-touch" className="button" />
+        <Button content="Get in touch" tag="a" href="mailto:ccanerorenn@gmail.com" className="button" />
       </section>
     </Layout>
   )
