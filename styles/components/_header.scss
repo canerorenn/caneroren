@@ -55,7 +55,7 @@
     display: inline-block;
 
     svg {
-      fill: var(--text-color);
+      fill: $color-black;
       transition: all 0.2s ease-in-out;
       * {
       }
@@ -63,7 +63,7 @@
 
     &:hover {
       svg {
-        fill: var(--red-color);
+        fill: $color-red;
       }
     }
   }
