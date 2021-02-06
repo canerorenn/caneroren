@@ -12,7 +12,7 @@ export default function Header() {
         </a>
       </Link>
       <div className="header__text">
-        <h1>Caner ÖREN</h1>
+        <h1>Caner ÖREN - Web</h1>
         <p>Freelance Frontend Developer</p>
       </div>
       <nav className="header__social">
